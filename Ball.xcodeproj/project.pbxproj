@@ -7,18 +7,69 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		860298932D417EBF00B508FF /* UserDefalutsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860298922D417EBF00B508FF /* UserDefalutsManager.swift */; };
+		860298982D4196F000B508FF /* BallGoPlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860298952D4196F000B508FF /* BallGoPlayView.swift */; };
+		860298992D4196F000B508FF /* BallGoPlayModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860298962D4196F000B508FF /* BallGoPlayModel.swift */; };
+		8602989A2D4196F000B508FF /* BallGoPlayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860298972D4196F000B508FF /* BallGoPlayViewModel.swift */; };
+		8602989D2D41A9A200B508FF /* CBitMask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8602989C2D41A9A200B508FF /* CBitMask.swift */; };
+		8602989F2D41A9B700B508FF /* BallGameData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8602989E2D41A9B700B508FF /* BallGameData.swift */; };
+		860298A12D41A9C100B508FF /* BallGameSpriteKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860298A02D41A9C100B508FF /* BallGameSpriteKit.swift */; };
+		860298A32D41A9CB00B508FF /* BallGameSpriteKitExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860298A22D41A9CB00B508FF /* BallGameSpriteKitExtension.swift */; };
+		868E22E32D3FD4D900AF33CC /* BallGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868E22E02D3FD4D900AF33CC /* BallGameView.swift */; };
+		868E22E42D3FD4D900AF33CC /* BallGameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868E22E12D3FD4D900AF33CC /* BallGameModel.swift */; };
+		868E22E52D3FD4D900AF33CC /* BallGameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868E22E22D3FD4D900AF33CC /* BallGameViewModel.swift */; };
 		86F88F612D3ED11300DEC26F /* BallApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F88F602D3ED11300DEC26F /* BallApp.swift */; };
-		86F88F632D3ED11300DEC26F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F88F622D3ED11300DEC26F /* ContentView.swift */; };
 		86F88F652D3ED11400DEC26F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86F88F642D3ED11400DEC26F /* Assets.xcassets */; };
 		86F88F682D3ED11400DEC26F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86F88F672D3ED11400DEC26F /* Preview Assets.xcassets */; };
+		86F88F762D3ED27200DEC26F /* BallImageName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F88F752D3ED27200DEC26F /* BallImageName.swift */; };
+		86F88F782D3ED28500DEC26F /* BallCustomButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F88F772D3ED28500DEC26F /* BallCustomButtons.swift */; };
+		86F88F7A2D3ED29500DEC26F /* BallTextExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F88F792D3ED29500DEC26F /* BallTextExtension.swift */; };
+		86F88F7C2D3ED2A900DEC26F /* BallTextOutlineExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F88F7B2D3ED2A900DEC26F /* BallTextOutlineExtension.swift */; };
+		86F88F812D3ED2C400DEC26F /* BallLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F88F7E2D3ED2C400DEC26F /* BallLoadingView.swift */; };
+		86F88F822D3ED2C400DEC26F /* BallLoadingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F88F7F2D3ED2C400DEC26F /* BallLoadingModel.swift */; };
+		86F88F832D3ED2C400DEC26F /* BallLoadingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F88F802D3ED2C400DEC26F /* BallLoadingViewModel.swift */; };
+		86F88F852D3ED2CC00DEC26F /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F88F842D3ED2CC00DEC26F /* Router.swift */; };
+		86F88F882D3ED3BC00DEC26F /* BigshotOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 86F88F862D3ED37D00DEC26F /* BigshotOne-Regular.ttf */; };
+		86F88F8D2D3ED82200DEC26F /* BallMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F88F8A2D3ED82200DEC26F /* BallMenuView.swift */; };
+		86F88F8E2D3ED82200DEC26F /* BallMenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F88F8B2D3ED82200DEC26F /* BallMenuModel.swift */; };
+		86F88F8F2D3ED82200DEC26F /* BallMenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F88F8C2D3ED82200DEC26F /* BallMenuViewModel.swift */; };
+		86F88F942D3EE85F00DEC26F /* BallShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F88F912D3EE85F00DEC26F /* BallShopView.swift */; };
+		86F88F952D3EE85F00DEC26F /* BallShopModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F88F922D3EE85F00DEC26F /* BallShopModel.swift */; };
+		86F88F962D3EE85F00DEC26F /* BallShopViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F88F932D3EE85F00DEC26F /* BallShopViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		860298922D417EBF00B508FF /* UserDefalutsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefalutsManager.swift; sourceTree = "<group>"; };
+		860298952D4196F000B508FF /* BallGoPlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BallGoPlayView.swift; sourceTree = "<group>"; };
+		860298962D4196F000B508FF /* BallGoPlayModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BallGoPlayModel.swift; sourceTree = "<group>"; };
+		860298972D4196F000B508FF /* BallGoPlayViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BallGoPlayViewModel.swift; sourceTree = "<group>"; };
+		8602989C2D41A9A200B508FF /* CBitMask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CBitMask.swift; sourceTree = "<group>"; };
+		8602989E2D41A9B700B508FF /* BallGameData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BallGameData.swift; sourceTree = "<group>"; };
+		860298A02D41A9C100B508FF /* BallGameSpriteKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BallGameSpriteKit.swift; sourceTree = "<group>"; };
+		860298A22D41A9CB00B508FF /* BallGameSpriteKitExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BallGameSpriteKitExtension.swift; sourceTree = "<group>"; };
+		868E22E02D3FD4D900AF33CC /* BallGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BallGameView.swift; sourceTree = "<group>"; };
+		868E22E12D3FD4D900AF33CC /* BallGameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BallGameModel.swift; sourceTree = "<group>"; };
+		868E22E22D3FD4D900AF33CC /* BallGameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BallGameViewModel.swift; sourceTree = "<group>"; };
 		86F88F5D2D3ED11300DEC26F /* Ball.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ball.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86F88F602D3ED11300DEC26F /* BallApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BallApp.swift; sourceTree = "<group>"; };
-		86F88F622D3ED11300DEC26F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		86F88F642D3ED11400DEC26F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		86F88F672D3ED11400DEC26F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		86F88F752D3ED27200DEC26F /* BallImageName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BallImageName.swift; sourceTree = "<group>"; };
+		86F88F772D3ED28500DEC26F /* BallCustomButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BallCustomButtons.swift; sourceTree = "<group>"; };
+		86F88F792D3ED29500DEC26F /* BallTextExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BallTextExtension.swift; sourceTree = "<group>"; };
+		86F88F7B2D3ED2A900DEC26F /* BallTextOutlineExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BallTextOutlineExtension.swift; sourceTree = "<group>"; };
+		86F88F7E2D3ED2C400DEC26F /* BallLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BallLoadingView.swift; sourceTree = "<group>"; };
+		86F88F7F2D3ED2C400DEC26F /* BallLoadingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BallLoadingModel.swift; sourceTree = "<group>"; };
+		86F88F802D3ED2C400DEC26F /* BallLoadingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BallLoadingViewModel.swift; sourceTree = "<group>"; };
+		86F88F842D3ED2CC00DEC26F /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		86F88F862D3ED37D00DEC26F /* BigshotOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BigshotOne-Regular.ttf"; sourceTree = "<group>"; };
+		86F88F872D3ED38D00DEC26F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		86F88F8A2D3ED82200DEC26F /* BallMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BallMenuView.swift; sourceTree = "<group>"; };
+		86F88F8B2D3ED82200DEC26F /* BallMenuModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BallMenuModel.swift; sourceTree = "<group>"; };
+		86F88F8C2D3ED82200DEC26F /* BallMenuViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BallMenuViewModel.swift; sourceTree = "<group>"; };
+		86F88F912D3EE85F00DEC26F /* BallShopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BallShopView.swift; sourceTree = "<group>"; };
+		86F88F922D3EE85F00DEC26F /* BallShopModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BallShopModel.swift; sourceTree = "<group>"; };
+		86F88F932D3EE85F00DEC26F /* BallShopViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BallShopViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +83,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		860298912D417EB300B508FF /* UserDefalutsManager */ = {
+			isa = PBXGroup;
+			children = (
+				860298922D417EBF00B508FF /* UserDefalutsManager.swift */,
+			);
+			path = UserDefalutsManager;
+			sourceTree = "<group>";
+		};
+		860298942D4196DD00B508FF /* BallGoPlayModule */ = {
+			isa = PBXGroup;
+			children = (
+				860298952D4196F000B508FF /* BallGoPlayView.swift */,
+				860298962D4196F000B508FF /* BallGoPlayModel.swift */,
+				860298972D4196F000B508FF /* BallGoPlayViewModel.swift */,
+			);
+			path = BallGoPlayModule;
+			sourceTree = "<group>";
+		};
+		8602989B2D41A99300B508FF /* BallGameSpriteKit */ = {
+			isa = PBXGroup;
+			children = (
+				8602989C2D41A9A200B508FF /* CBitMask.swift */,
+				8602989E2D41A9B700B508FF /* BallGameData.swift */,
+				860298A02D41A9C100B508FF /* BallGameSpriteKit.swift */,
+				860298A22D41A9CB00B508FF /* BallGameSpriteKitExtension.swift */,
+			);
+			path = BallGameSpriteKit;
+			sourceTree = "<group>";
+		};
+		868E22DF2D3FD4D000AF33CC /* BallGameModule */ = {
+			isa = PBXGroup;
+			children = (
+				868E22E02D3FD4D900AF33CC /* BallGameView.swift */,
+				868E22E12D3FD4D900AF33CC /* BallGameModel.swift */,
+				868E22E22D3FD4D900AF33CC /* BallGameViewModel.swift */,
+				8602989B2D41A99300B508FF /* BallGameSpriteKit */,
+			);
+			path = BallGameModule;
+			sourceTree = "<group>";
+		};
 		86F88F542D3ED11300DEC26F = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +142,16 @@
 		86F88F5F2D3ED11300DEC26F /* Ball */ = {
 			isa = PBXGroup;
 			children = (
+				86F88F872D3ED38D00DEC26F /* Info.plist */,
 				86F88F602D3ED11300DEC26F /* BallApp.swift */,
-				86F88F622D3ED11300DEC26F /* ContentView.swift */,
+				860298942D4196DD00B508FF /* BallGoPlayModule */,
+				868E22DF2D3FD4D000AF33CC /* BallGameModule */,
+				86F88F902D3EE85200DEC26F /* BallShopModule */,
+				86F88F892D3ED80E00DEC26F /* BallMenuModule */,
+				86F88F7D2D3ED2BA00DEC26F /* BallLoadingModule */,
+				86F88F6F2D3ED21F00DEC26F /* BallExtensions */,
+				86F88F6E2D3ED21B00DEC26F /* BallHelpers */,
+				860298912D417EB300B508FF /* UserDefalutsManager */,
 				86F88F642D3ED11400DEC26F /* Assets.xcassets */,
 				86F88F662D3ED11400DEC26F /* Preview Content */,
 			);
@@ -65,6 +164,96 @@
 				86F88F672D3ED11400DEC26F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		86F88F6E2D3ED21B00DEC26F /* BallHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				86F88F722D3ED23F00DEC26F /* BallFonts */,
+				86F88F712D3ED22A00DEC26F /* BallImageName */,
+				86F88F702D3ED22500DEC26F /* BallCustomButtons */,
+			);
+			path = BallHelpers;
+			sourceTree = "<group>";
+		};
+		86F88F6F2D3ED21F00DEC26F /* BallExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				86F88F732D3ED25100DEC26F /* BallTextOutlineExtension */,
+				86F88F742D3ED25E00DEC26F /* BallTextExtension */,
+			);
+			path = BallExtensions;
+			sourceTree = "<group>";
+		};
+		86F88F702D3ED22500DEC26F /* BallCustomButtons */ = {
+			isa = PBXGroup;
+			children = (
+				86F88F772D3ED28500DEC26F /* BallCustomButtons.swift */,
+			);
+			path = BallCustomButtons;
+			sourceTree = "<group>";
+		};
+		86F88F712D3ED22A00DEC26F /* BallImageName */ = {
+			isa = PBXGroup;
+			children = (
+				86F88F752D3ED27200DEC26F /* BallImageName.swift */,
+			);
+			path = BallImageName;
+			sourceTree = "<group>";
+		};
+		86F88F722D3ED23F00DEC26F /* BallFonts */ = {
+			isa = PBXGroup;
+			children = (
+				86F88F862D3ED37D00DEC26F /* BigshotOne-Regular.ttf */,
+			);
+			path = BallFonts;
+			sourceTree = "<group>";
+		};
+		86F88F732D3ED25100DEC26F /* BallTextOutlineExtension */ = {
+			isa = PBXGroup;
+			children = (
+				86F88F7B2D3ED2A900DEC26F /* BallTextOutlineExtension.swift */,
+			);
+			path = BallTextOutlineExtension;
+			sourceTree = "<group>";
+		};
+		86F88F742D3ED25E00DEC26F /* BallTextExtension */ = {
+			isa = PBXGroup;
+			children = (
+				86F88F792D3ED29500DEC26F /* BallTextExtension.swift */,
+			);
+			path = BallTextExtension;
+			sourceTree = "<group>";
+		};
+		86F88F7D2D3ED2BA00DEC26F /* BallLoadingModule */ = {
+			isa = PBXGroup;
+			children = (
+				86F88F7E2D3ED2C400DEC26F /* BallLoadingView.swift */,
+				86F88F7F2D3ED2C400DEC26F /* BallLoadingModel.swift */,
+				86F88F802D3ED2C400DEC26F /* BallLoadingViewModel.swift */,
+				86F88F842D3ED2CC00DEC26F /* Router.swift */,
+			);
+			path = BallLoadingModule;
+			sourceTree = "<group>";
+		};
+		86F88F892D3ED80E00DEC26F /* BallMenuModule */ = {
+			isa = PBXGroup;
+			children = (
+				86F88F8A2D3ED82200DEC26F /* BallMenuView.swift */,
+				86F88F8B2D3ED82200DEC26F /* BallMenuModel.swift */,
+				86F88F8C2D3ED82200DEC26F /* BallMenuViewModel.swift */,
+			);
+			path = BallMenuModule;
+			sourceTree = "<group>";
+		};
+		86F88F902D3EE85200DEC26F /* BallShopModule */ = {
+			isa = PBXGroup;
+			children = (
+				86F88F912D3EE85F00DEC26F /* BallShopView.swift */,
+				86F88F922D3EE85F00DEC26F /* BallShopModel.swift */,
+				86F88F932D3EE85F00DEC26F /* BallShopViewModel.swift */,
+			);
+			path = BallShopModule;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +314,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86F88F882D3ED3BC00DEC26F /* BigshotOne-Regular.ttf in Resources */,
 				86F88F682D3ED11400DEC26F /* Preview Assets.xcassets in Resources */,
 				86F88F652D3ED11400DEC26F /* Assets.xcassets in Resources */,
 			);
@@ -137,8 +327,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				86F88F632D3ED11300DEC26F /* ContentView.swift in Sources */,
+				860298932D417EBF00B508FF /* UserDefalutsManager.swift in Sources */,
+				86F88F7A2D3ED29500DEC26F /* BallTextExtension.swift in Sources */,
+				86F88F942D3EE85F00DEC26F /* BallShopView.swift in Sources */,
+				86F88F952D3EE85F00DEC26F /* BallShopModel.swift in Sources */,
+				86F88F962D3EE85F00DEC26F /* BallShopViewModel.swift in Sources */,
+				868E22E32D3FD4D900AF33CC /* BallGameView.swift in Sources */,
+				860298A32D41A9CB00B508FF /* BallGameSpriteKitExtension.swift in Sources */,
+				868E22E42D3FD4D900AF33CC /* BallGameModel.swift in Sources */,
+				868E22E52D3FD4D900AF33CC /* BallGameViewModel.swift in Sources */,
+				860298982D4196F000B508FF /* BallGoPlayView.swift in Sources */,
+				860298992D4196F000B508FF /* BallGoPlayModel.swift in Sources */,
+				8602989A2D4196F000B508FF /* BallGoPlayViewModel.swift in Sources */,
+				86F88F852D3ED2CC00DEC26F /* Router.swift in Sources */,
+				8602989F2D41A9B700B508FF /* BallGameData.swift in Sources */,
+				8602989D2D41A9A200B508FF /* CBitMask.swift in Sources */,
+				86F88F7C2D3ED2A900DEC26F /* BallTextOutlineExtension.swift in Sources */,
 				86F88F612D3ED11300DEC26F /* BallApp.swift in Sources */,
+				86F88F762D3ED27200DEC26F /* BallImageName.swift in Sources */,
+				86F88F812D3ED2C400DEC26F /* BallLoadingView.swift in Sources */,
+				86F88F822D3ED2C400DEC26F /* BallLoadingModel.swift in Sources */,
+				86F88F8D2D3ED82200DEC26F /* BallMenuView.swift in Sources */,
+				86F88F8E2D3ED82200DEC26F /* BallMenuModel.swift in Sources */,
+				860298A12D41A9C100B508FF /* BallGameSpriteKit.swift in Sources */,
+				86F88F8F2D3ED82200DEC26F /* BallMenuViewModel.swift in Sources */,
+				86F88F832D3ED2C400DEC26F /* BallLoadingViewModel.swift in Sources */,
+				86F88F782D3ED28500DEC26F /* BallCustomButtons.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +489,7 @@
 				DEVELOPMENT_TEAM = 59WWFG63NN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Ball/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +519,7 @@
 				DEVELOPMENT_TEAM = 59WWFG63NN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Ball/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
