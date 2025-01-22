@@ -4,7 +4,7 @@ import SwiftUI
 struct BallApp: App {
     var body: some Scene {
         WindowGroup {
-           BallLoadingView()
+            BallLoadingView()
                 .onAppear {
                     UserDefaultsManager().firstLaunch()
                 }
